@@ -1,6 +1,6 @@
 export const SET_CATEGORiES = "SET_CATEGORiES";
 
-export const setCategoryAction = () => {
+export const setCategoryAction = (payload) => {
   return {
     type: SET_CATEGORiES,
     payload
